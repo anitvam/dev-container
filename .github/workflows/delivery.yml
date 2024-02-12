@@ -27,15 +27,18 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
 
+      - name: Retrieve semver tag
+        id: semver
+        runs: echo "version=${git describe --tags --abbrev=0}" >> "$GITHUB_OUTPUT"
+
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
         with:
           images: anitvam/dev-container
           tags: |
-            type=ref,event=tag
-            type=semver,pattern={{version}}
-            type=semver,pattern={{major}}.{{minor}}
+            ${{steps.semver.outputs.version}}
+            latest
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
