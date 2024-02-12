@@ -13,8 +13,8 @@ jobs:
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
-          with:
-            fetch-depth: 0
+        with:
+          fetch-depth: 0
 
       - name: Semantic Release
         use: anitvam/conventionalcommit-semantic-releasing@v0.7.5
