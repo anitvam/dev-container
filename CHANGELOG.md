@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/anitvam/dev-container/compare/v1.0.6...v1.0.7) (2024-02-13)
+
+
+### Bug Fixes
+
+* prenvent failing if current directory changes ([4c9a0e5](https://github.com/anitvam/dev-container/commit/4c9a0e577c8069b8cd9d0be3fbefd4d88f71fe3d))
+
 ## [1.0.6](https://github.com/anitvam/dev-container/compare/v1.0.5...v1.0.6) (2024-02-13)
 
 
