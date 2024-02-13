@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/anitvam/dev-container/compare/v1.0.5...v1.0.6) (2024-02-13)
+
+
+### Bug Fixes
+
+* change image tagging in CI using gh refs ([63b034b](https://github.com/anitvam/dev-container/commit/63b034bcfd749e3f1c6ee94545f5c5044bd0e2c1))
+
 ## [1.0.5](https://github.com/anitvam/dev-container/compare/v1.0.4...v1.0.5) (2024-02-13)
 
 
