@@ -34,4 +34,4 @@ EXPOSE 22
 COPY config.sh ./
 
 # Run configuration script
-ENTRYPOINT bash config.sh
+ENTRYPOINT bash /config.sh
