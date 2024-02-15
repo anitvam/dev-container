@@ -5,6 +5,10 @@ Docker container for development purposes with pre-installed:
 - git
 - openssh-server
 
+### Avoid password authentication for your SSH connections!
+
+Read [this article](https://www.redhat.com/sysadmin/configure-ssh-keygen) if you never used key-based authentication methods.
+
 ## Quick-start
 
 ### Build from source
