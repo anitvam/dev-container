@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/anitvam/dev-container/compare/v1.0.7...v1.1.0) (2024-02-15)
+
+
+### Features
+
+* Include renovate ([4e3bd98](https://github.com/anitvam/dev-container/commit/4e3bd986d699b229aaa51e6195ffeac09f6ca031))
+
 ## [1.0.7](https://github.com/anitvam/dev-container/compare/v1.0.6...v1.0.7) (2024-02-13)
 
 
