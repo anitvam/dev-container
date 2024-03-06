@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 RUN apt-get update && \
     apt-get upgrade -y
@@ -22,8 +22,6 @@ RUN newgrp - docker
 # Set up configuration for SSH
 RUN mkdir /var/run/sshd && \
     mkdir /home/dev/.ssh && \
-    touch /home/dev/.ssh/authorized_keys && \
-    echo $PUBLIC_KEY >> /home/dev/.ssh/authorized_keys && \
     sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config && \
     echo "export VISIBLE=now" >> /etc/profile
 

@@ -24,7 +24,7 @@ ssh dev@localhost:2222 -i ~/.ssh/<YOUR_PRI_KEY>
 ### Pull from Docker Hub
 
 ```bash
-docker pull anitvam/dev-container:latest
+docker pull w4bo/sshd:latest
 docker run -d -e PUBLIC_KEY="YOUR_PUB_KEY" -p 2222:22 -v /var/run/docker.sock:/var/run/docker.sock dev-container:latest
 ssh dev@localhost:2222 -i ~/.ssh/<YOUR_PRI_KEY>
 ```

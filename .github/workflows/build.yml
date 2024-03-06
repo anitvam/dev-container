@@ -1,0 +1,14 @@
+name: Build Docker image
+
+on: [push, pull_request]
+
+jobs:
+    build:
+      runs-on: ubuntu-22.04
+      steps:
+        - uses: actions/checkout@v4.1.1
+        - name: Run docker
+          run: |
+            docker build . -t sshd:latest
+            docker run -d -e -p 2222:22 -v /var/run/docker.sock:/var/run/docker.sock sshd:latest
+            docker run -d -e PUBLIC_KEY="YOUR_PUB_KEY" -p 2223:22 -v /var/run/docker.sock:/var/run/docker.sock sshd:latest
