@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/anitvam/dev-container/compare/v1.1.1...v1.1.2) (2024-04-23)
+
+
+### Bug Fixes
+
+* **deps:** update anitvam/conventionalcommit-semantic-releasing action to v0.7.14 ([de86ca0](https://github.com/anitvam/dev-container/commit/de86ca0d581bfaf0c17944e5ebbda4fba29509f9))
+
 ## [1.1.1](https://github.com/anitvam/dev-container/compare/v1.1.0...v1.1.1) (2024-04-16)
 
 
