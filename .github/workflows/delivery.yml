@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Semantic Release
-        uses: anitvam/conventionalcommit-semantic-releasing@v0.7.13
+        uses: anitvam/conventionalcommit-semantic-releasing@v0.7.14
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
