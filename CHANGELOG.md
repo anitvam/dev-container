@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/anitvam/dev-container/compare/v1.1.3...v1.1.4) (2025-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update docker/build-push-action action to v6 ([49192d8](https://github.com/anitvam/dev-container/commit/49192d88b75afd826e10fe76f167d7301f2d0bdc))
+
 ## [1.1.3](https://github.com/anitvam/dev-container/compare/v1.1.2...v1.1.3) (2025-05-06)
 
 
